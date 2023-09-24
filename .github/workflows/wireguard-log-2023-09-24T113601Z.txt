@@ -1,0 +1,73 @@
+2023-09-24 04:35:17.141741: [APP] App version: 1.0.16 (27)
+2023-09-24 04:35:36.433240: [APP] startActivation: Entering (tunnel: SideStore(1))
+2023-09-24 04:35:36.438387: [APP] startActivation: Starting tunnel
+2023-09-24 04:35:36.438869: [APP] startActivation: Success
+2023-09-24 04:35:36.453092: [APP] Tunnel 'SideStore(1)' connection status changed to 'connecting'
+2023-09-24 04:35:36.679598: [NET] App version: 1.0.16 (27)
+2023-09-24 04:35:36.680748: [NET] Starting tunnel from the app
+2023-09-24 04:35:36.740613: [NET] DNS64: mapped 127.0.0.1 to itself.
+2023-09-24 04:35:36.741846: [NET] Attaching to interface
+2023-09-24 04:35:36.742262: [NET] UAPI: Updating private key
+2023-09-24 04:35:36.742422: [NET] UAPI: Removing all peers
+2023-09-24 04:35:36.742558: [NET] peer(kHDo…+JF0) - UAPI: Created
+2023-09-24 04:35:36.742584: [NET] peer(kHDo…+JF0) - UAPI: Updating endpoint
+2023-09-24 04:35:36.742640: [NET] peer(kHDo…+JF0) - UAPI: Updating persistent keepalive interval
+2023-09-24 04:35:36.742678: [NET] peer(kHDo…+JF0) - UAPI: Removing all allowedips
+2023-09-24 04:35:36.742751: [NET] peer(kHDo…+JF0) - UAPI: Adding allowedip
+2023-09-24 04:35:36.742854: [NET] Routine: encryption worker 1 - started
+2023-09-24 04:35:36.742985: [NET] Routine: decryption worker 1 - started
+2023-09-24 04:35:36.743042: [NET] Routine: handshake worker 2 - started
+2023-09-24 04:35:36.743116: [NET] Routine: decryption worker 2 - started
+2023-09-24 04:35:36.743197: [NET] Routine: handshake worker 1 - started
+2023-09-24 04:35:36.743274: [NET] UDP bind has been updated
+2023-09-24 04:35:36.743279: [NET] Routine: encryption worker 3 - started
+2023-09-24 04:35:36.743312: [NET] peer(kHDo…+JF0) - Starting
+2023-09-24 04:35:36.743423: [NET] peer(kHDo…+JF0) - Sending keepalive packet
+2023-09-24 04:35:36.743492: [NET] Routine: handshake worker 3 - started
+2023-09-24 04:35:36.743509: [NET] Routine: decryption worker 3 - started
+2023-09-24 04:35:36.743594: [NET] peer(kHDo…+JF0) - Sending handshake initiation
+2023-09-24 04:35:36.743625: [NET] Routine: encryption worker 2 - started
+2023-09-24 04:35:36.743690: [NET] Routine: TUN reader - started
+2023-09-24 04:35:36.743763: [NET] Routine: handshake worker 4 - started
+2023-09-24 04:35:36.744062: [NET] Routine: handshake worker 5 - started
+2023-09-24 04:35:36.744080: [NET] Interface state was Down, requested Up, now Up
+2023-09-24 04:35:36.744113: [NET] Device started
+2023-09-24 04:35:36.744208: [NET] Tunnel interface is utun5
+2023-09-24 04:35:36.744261: [NET] Routine: encryption worker 5 - started
+2023-09-24 04:35:36.744338: [NET] Routine: decryption worker 5 - started
+2023-09-24 04:35:36.744449: [NET] Routine: event worker - started
+2023-09-24 04:35:36.744520: [NET] Routine: decryption worker 6 - started
+2023-09-24 04:35:36.744741: [NET] Routine: handshake worker 6 - started
+2023-09-24 04:35:36.744943: [NET] Routine: decryption worker 4 - started
+2023-09-24 04:35:36.745018: [NET] Routine: encryption worker 6 - started
+2023-09-24 04:35:36.745016: [NET] Routine: encryption worker 4 - started
+2023-09-24 04:35:36.745036: [NET] Routine: receive incoming v4 - started
+2023-09-24 04:35:36.745117: [NET] Routine: receive incoming v6 - started
+2023-09-24 04:35:36.745467: [APP] Tunnel 'SideStore(1)' connection status changed to 'connected'
+2023-09-24 04:35:36.747022: [NET] peer(kHDo…+JF0) - Routine: sequential sender - started
+2023-09-24 04:35:36.747023: [NET] peer(kHDo…+JF0) - Routine: sequential receiver - started
+2023-09-24 04:35:36.747601: [NET] Network change detected with satisfied route and interface order [en0]
+2023-09-24 04:35:36.747676: [NET] DNS64: mapped 127.0.0.1 to itself.
+2023-09-24 04:35:36.747737: [NET] peer(kHDo…+JF0) - UAPI: Updating endpoint
+2023-09-24 04:35:36.747901: [NET] Routine: receive incoming v4 - stopped
+2023-09-24 04:35:36.747988: [NET] Routine: receive incoming v6 - stopped
+2023-09-24 04:35:36.748339: [NET] UDP bind has been updated
+2023-09-24 04:35:36.748352: [NET] Routine: receive incoming v4 - started
+2023-09-24 04:35:36.748398: [NET] Routine: receive incoming v6 - started
+2023-09-24 04:35:36.789536: [NET] Network change detected with satisfied route and interface order [en0, utun5]
+2023-09-24 04:35:36.789881: [NET] DNS64: mapped 127.0.0.1 to itself.
+2023-09-24 04:35:36.790126: [NET] peer(kHDo…+JF0) - UAPI: Updating endpoint
+2023-09-24 04:35:36.790529: [NET] Routine: receive incoming v4 - stopped
+2023-09-24 04:35:36.790640: [NET] Routine: receive incoming v6 - stopped
+2023-09-24 04:35:36.791065: [NET] UDP bind has been updated
+2023-09-24 04:35:36.791087: [NET] Routine: receive incoming v4 - started
+2023-09-24 04:35:36.791172: [NET] Routine: receive incoming v6 - started
+2023-09-24 04:35:41.439788: [APP] Status update notification timeout for tunnel 'SideStore(1)'. Tunnel status is now 'connected'.
+2023-09-24 04:35:41.805919: [NET] peer(kHDo…+JF0) - Handshake did not complete after 5 seconds, retrying (try 2)
+2023-09-24 04:35:41.806289: [NET] peer(kHDo…+JF0) - Sending handshake initiation
+2023-09-24 04:35:46.831833: [NET] peer(kHDo…+JF0) - Handshake did not complete after 5 seconds, retrying (try 3)
+2023-09-24 04:35:46.832431: [NET] peer(kHDo…+JF0) - Sending handshake initiation
+2023-09-24 04:35:52.006396: [NET] peer(kHDo…+JF0) - Handshake did not complete after 5 seconds, retrying (try 4)
+2023-09-24 04:35:52.006744: [NET] peer(kHDo…+JF0) - Sending handshake initiation
+2023-09-24 04:35:57.234082: [NET] peer(kHDo…+JF0) - Handshake did not complete after 5 seconds, retrying (try 5)
+2023-09-24 04:35:57.234508: [NET] peer(kHDo…+JF0) - Sending handshake initiation
